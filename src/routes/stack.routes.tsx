@@ -11,10 +11,6 @@ export const StackRoutes = () => {
                 headerShown: false
             }}
         >
-            <Screen
-                name="firstAccess"
-                component={FirstAccess}
-            />
             <Screen 
                 name="home"
                 component={Home}
