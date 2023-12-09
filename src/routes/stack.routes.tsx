@@ -1,6 +1,6 @@
-import { createStackNavigator } from "@react-navigation/stack"
-import { FirstAccess } from "../screens/FirstAccess";
+import { createStackNavigator } from "@react-navigation/stack";
 import { Home } from "../screens/Home";
+import { Login } from "../screens/Login";
 
 const {Screen, Navigator} = createStackNavigator();
 
@@ -11,6 +11,10 @@ export const StackRoutes = () => {
                 headerShown: false
             }}
         >
+            {/* <Screen 
+                name="login"
+                component={Login}
+            /> */}
             <Screen 
                 name="home"
                 component={Home}

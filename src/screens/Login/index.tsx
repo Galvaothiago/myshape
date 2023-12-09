@@ -1,11 +1,11 @@
 import { Text, View } from "react-native"
 
-import styles  from './styles'
+import styles from './styles'
 
-export const Home = () => {
+export const Login = () => {
     return (
         <View style={styles.container}>
-            <Text>Home</Text>
+            <Text>Login</Text>
         </View>
     )
 }
